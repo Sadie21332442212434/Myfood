@@ -1,0 +1,50 @@
+.header{
+height: 242px;
+max-width: 3000px;
+}
+.topic{
+  display: flex;
+  height: 168px;
+  border: none;
+  background-color: aqua;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.topic-content{
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+  padding: 0 90px;
+  height: 168px;
+  width: 2000px;
+}
+.title{
+  width: 470px;
+  font-size: 110px;
+  margin-left: 55px;
+}
+.nav-search{
+  display: flex;
+	justify-content: space-evenly;
+	width: 800px;
+	height: 40px;
+
+}
+.search-bar{
+  height: 90px;
+  width: 714px;
+  margin: 9px;
+}
+.topic-search-bar{
+  height: 40px;
+  width: 552px;
+  margin: 11px;
+  border-radius: 14px;
+  text-align: center;
+  font-size: 19px;
+}
+.search-button{
+  height: 37px;
+  width: 106px;
+  border-radius: 20px;
+}
