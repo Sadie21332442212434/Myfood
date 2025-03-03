@@ -41,15 +41,15 @@ body {
   padding: 32px 7px;
 }
 
-.image-one{
+.card{
   margin: 8px;
   width: 272px;
 }
-.photo{
+.image{
   height: 408px;
   width:272px;
 }
-.i1-text-box1{
+.image-title{
   justify-items: center;
   font-size: 25px;
   line-height: 36px;
@@ -57,7 +57,7 @@ body {
   text-align: center ;
   width:270px;
 }
-.i1-text-box2{
+.image-description{
   justify-items: center;
   font-size: 16.5px;
   text-align: center ;
@@ -74,7 +74,7 @@ body {
 }
 
 /**scroll bar**/
-.scroll-bar{
+.pagination{
   display: flex;
   justify-content: center;
   padding: 34px 0;
@@ -100,11 +100,11 @@ body {
   color: white;
 }
 /** next page **/
-.content-container2{
+.biography{
   padding: 55px 0 91px 0 ;
   max-width:1200 px;
 }
-.hero-topic2{
+.biography-title{
   margin: 0 12px;
  display: inline;
  text-align: center;
@@ -112,23 +112,23 @@ body {
  align-items: center;
  padding-top: 2px;
 }
-.hero-image-section{
+.biography-image{
   display: flex;
   height: 533px;
   width: 800px;
   padding: 40px 183px
 }
-.hero-image{
+.chef-image{
   display: flex;
   height: 533px;
   width: 800px;
 }
-.paragraphs{
+.bio-content{
   padding: 2px 0;
   text-align: center;
   justify-content: center;
 }
-.atext{
+.who-am-i{
   justify-items: center;
   font-weight: bold ;
   font-size: 21px;
@@ -137,7 +137,7 @@ body {
   line-height: 20px;
   
 }
-.btext{
+.passion{
   justify-items: center;
   font-style: italic;
   font-size: 17px;
@@ -145,7 +145,7 @@ body {
   padding-top: 18px;
   line-height: 20px;
 }
-.ctext{
+.bio-description{
   justify-items: center;
   font-style: italic;
   font-size: 17px;
@@ -164,7 +164,7 @@ body {
     height: 188px;
     width: 376px;
 }
-.text1{
+.footer-title{
   padding-left: 5px;
   font-size: 23px;
   line-height: 36px;
@@ -180,19 +180,19 @@ p{
   width: 367px;
   padding: 0 8px;
 }
-.blog-text1{
+.blog-title{
   font-size: 21px;
   line-height: 38px;
   padding-top: 6px;
   width: 270px;
 }
-.context{
+.blog-context{
   width: 337;
   height: 167px;
   padding: 19px 8px;
   
 }
-.context-button{
+.blog-options{
   display: flex;
   width: 336px;
   height: 67px;
@@ -200,13 +200,13 @@ p{
   border: none;
   background-color: transparent;
 }
-.button2{
+.blog-option-image{
 display: flex;
 height: 50px;
 width: 50px;
 margin-right: 16px;
 }
-.text2{
+.blog-option-title{
   font-size: 17px;
     text-align: start;
     line-height: 23px;
@@ -217,20 +217,20 @@ margin-right: 16px;
   height: 181px;
   width: 374px;
 }
-.tag-text1{
+.tag-title{
   font-size: 22px;
   line-height: 38px;
   padding-top: 6px;
   width: 270px;
 }
-.txtbox{
+.tag-contents{
   font-family: serif;
   height: 112px;
   width: 367px;
   padding: 18px 1px;
   display: inline-block;
 }
-.first{
+.tag-contents-first-text{
   display: inline-flex;
   height: 18px;
   width: 40px;
@@ -243,7 +243,7 @@ margin-right: 16px;
   margin-bottom: 17px;
   
 }
-.second{
+.tag-contents-second-text{
   display: inline-flex;
   background-color: gray;
   color: white;

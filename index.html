@@ -4,6 +4,8 @@
       My Food
     </title>
     <link rel="stylesheet" type="text/css" href="style/style.css" />
+    <link rel="stylesheet" type="text/css" href="style/content-biography.css" />
+    <link rel="stylesheet" type="text/css" href="style/content.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma" />
   </head>
 
@@ -18,74 +20,68 @@
     </div>
     <!--Content -->
     <div class="content-container">
-      <div class="row-1">
-            <div class="image-one">
+      <div class="row">
+            <div class="card">
               <div>
-                <img class="photo" src="image/sandwich.jpg"/>
+                <img class="image" src="image/sandwich.jpg"/>
               </div>
-              <div class="i1-text-box1">The Perfect Sandwich, A Real NYC Classic.</div>
-              <div class="i1-text-box2"> Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</div>
+              <div class="image-title">The Perfect Sandwich, A Real NYC Classic.</div>
+              <div class="image-description"> Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</div>
             </div>
-            <div class="image-one">
+            <div class="card">
               <div >
-                <img class="photo" src="image/steak.jpg"/>
+                <img class="image"   src="image/steak.jpg"/>
               </div>
-              <div class="i1-text-box1"> Let Me Tell You About This Steak.</div>
-              <div class="i1-text-box2">Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</div>
+              <div class="image-title"> Let Me Tell You About This Steak.</div>
+              <div class="image-description">Once again, some random text to lorem lorem lorem l....</div>
               </div>
-              <div class="image-one">
+              <div class="card">
                 <div >
-                  <img class="photo" src="image/cherries.jpg"/>
+                  <img class="image" src="image/cherries.jpg"/>
                 </div>
-                <div class="i1-text-box1"> Cherries, interrupted</div>
-                <div class="i1-text-box2">Lorem ipsum text praesent tincidunt ipsum lipsum.</div>
-                <div class="i1-text-box2">What else? </div>
+                <div class="image-title"> Cherries, interrupted</div>
+                <div class="image-description">Lorem ipsum text praesent tincidunt ipsum lipsum.</div>
+                <div class="image-description">What else? </div>
                 </div>
-              <div class="image-one">
+              <div class="card">
                   <div >
-                    <img class="photo" src="image/wine.jpg"/>
+                    <img class="image" src="image/wine.jpg"/>
                   </div>
-                  <div class="i1-text-box1"> Once Again, Robust Wine and Vegetable Pasta</div>
-                  <div class="i1-text-box2">Lorem ipsum text praesent tincidunt ipsum lipsum </div>
+                  <div class="image-title"> Once Again, Robust Wine and Vegetable Pasta</div>
+                  <div class="image-description">Lorem ipsum text praesent tincidunt ipsum lipsum </div>
+              </div>
+              <div class="card">
+                <div>
+                  <img class="image" src="image/popsicle.jpg"/>
+                </div>
+                <div class="image-title">All I Need Is a Popsicle</div>
+                <div class="image-description"> Lorem ipsum text praesent tincidunt ipsum lipsum.</div>
+              </div>
+              <div class="card">
+                <div>
+                  <img class="image" src="image/salmon.jpg"/>
+                </div>
+                <div class="image-title">Salmon For Your Skin</div>
+                <div class="image-description"> Once again, some random text to lipsum lipsum......</div>
+              </div>
+              <div class="card">
+                <div>
+                  <img class="image" src="image/sandwich (1).jpg"/>
+                </div>
+                <div class="image-title">The Perfect Sandwich ...</div>
+                <div class="image-description">Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</div>
+              </div>
+              <div class="card">
+                <div>
+                  <img class="image" src="image/croissant.jpg"/>
+                </div>
+                <div class="image-title">Le French</div>
+                <div class="image-description">Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</div>
               </div>
       </div>
-          
-            
-      
-      <div class="row-2">
-          <div class="image-one">
-            <div>
-              <img class="photo" src="image/popsicle.jpg"/>
-            </div>
-            <div class="i1-text-box1">All I Need Is a Popsicle</div>
-            <div class="i1-text-box2"> Lorem ipsum text praesent tincidunt ipsum lipsum.</div>
-          </div>
-          <div class="image-one">
-            <div>
-              <img class="photo" src="image/salmon.jpg"/>
-            </div>
-            <div class="i1-text-box1">Salmon For Your Skin</div>
-            <div class="i1-text-box2"> Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</div>
-          </div>
-          <div class="image-one">
-            <div>
-              <img class="photo" src="image/sandwich (1).jpg"/>
-            </div>
-            <div class="i1-text-box1">The Perfect Sandwich, A Real Classic</div>
-            <div class="i1-text-box2">Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</div>
-          </div>
-          <div class="image-one">
-            <div>
-              <img class="photo" src="image/croissant.jpg"/>
-            </div>
-            <div class="i1-text-box1">Le French</div>
-            <div class="i1-text-box2">Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</div>
-          </div>
-      
-        </div>
       </div>
     <!--Scroll bar-->
-    <div class="scroll-bar">
+    <div class="pagination">
       <div class="pages">
         <button type="button" class="button"><< </button>
         <button type="button" class="button">1</button>
@@ -98,17 +94,17 @@
     </div>
     <br>
     <hr>
-    <div class="content-container2">
-      <div class="hero-topic2">
-        <div class="text-box"> About Me, The Food Man </div>
+    <div class="biography">
+      <div class="biography-title">
+        <div class="about-me"> About Me, The Food Man </div>
       </div>
-      <div class="hero-image-section">
-        <img class="hero-image" src="image/chef.jpg">
+      <div class="biography-image">
+        <img class="chef-image" src="image/chef.jpg">
       </div>
-      <div class="paragraphs">
-        <div class="atext">I am Who I Am!</div>
-        <div class="btext">With Passion For Real, Good Food</div>
-        <div class="ctext">Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world 
+      <div class="bio-content">
+        <div class="who-am-i">I am Who I Am!</div>
+        <div class="passion">With Passion For Real, Good Food</div>
+        <div class="bio-description">Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world 
           with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus 
           ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</div>
       </div>
@@ -117,28 +113,28 @@
       <!-- FOOTER -->
       <div class="footer">
         <div class="foot">
-          <div class="text1">FOOTER</div>
+          <div class="footer-title">FOOTER</div>
           <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum,
              porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
             <p>Powered by w3.css</p>
         </div>
 
         <div class="blog">
-          <div class="blog-text1">BLOG POSTS</div>
-          <div class="context">
-              <button type="button" class="context-button">
-                 <img class="button2" src="image/workshop.jpg">
+          <div class="blog-title">BLOG POSTS</div>
+          <div class="blog-context">
+              <button type="button" class="blog-options">
+                 <img class="blog-option-image" src="image/workshop.jpg">
                 <div>
-                  <div class="text2">Lorem
+                  <div class="blog-option-title">Lorem
 
                   <br>Sed mattis nunc</div>              
                 </div>
               </button>
               <hr>
-              <button type="button" class="context-button">
-                <img class="button2" src="image/workshop.jpg">
+              <button type="button" class="blog-options">
+                <img class="blog-option-image" src="image/workshop.jpg">
                <div>
-                 <div class="text2">
+                 <div class="blog-option-title">
                   Ipsum
                  <br>Praes tinci sed</div>              
                </div>
@@ -147,22 +143,22 @@
           </div>
         </div>
           <div class="tags">
-            <div class="tag-text1">POPULAR TAGS</div>
-            <div class="txtbox">
-            <span class="first">Travel</span>
-            <span class="second">New York</span>
-            <span class="second">Dinner</span>
-            <span class="second">Salmon</span>
-            <span class="second">France</span>
-            <span class="second">Drinks</span>
-            <span class="second">Ideas</span>
-            <span class="second">Flavors</span>
-            <span class="second">Cuisine</span>
-            <span class="second">Chicken</span>
-            <span class="second">Dressing</span>
-            <span class="second">Fried</span>
-            <span class="second">Fish</span>
-            <span class="second">Duck</span>
+            <div class="tag-title">POPULAR TAGS</div>
+            <div class="tag-contents">
+            <span class="tag-contents-first-text">Travel</span>
+            <span class="tag-contents-second-text">New York</span>
+            <span class="tag-contents-second-text">Dinner</span>
+            <span class="tag-contents-second-text">Salmon</span>
+            <span class="tag-contents-second-text">France</span>
+            <span class="tag-contents-second-text">Drinks</span>
+            <span class="tag-contents-second-text">Ideas</span>
+            <span class="tag-contents-second-text">Flavors</span>
+            <span class="tag-contents-second-text">Cuisine</span>
+            <span class="tag-contents-second-text">Chicken</span>
+            <span class="tag-contents-second-text">Dressing</span>
+            <span class="tag-contents-second-text">Fried</span>
+            <span class="tag-contents-second-text">Fish</span>
+            <span class="tag-contents-second-text">Duck</span>
 
             </div>
 
