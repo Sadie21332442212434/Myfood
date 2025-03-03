@@ -1,0 +1,54 @@
+.biography{
+  padding: 55px 0 91px 0 ;
+  max-width:1200 px;
+}
+.biography-title{
+  margin: 0 12px;
+ display: inline;
+ text-align: center;
+ font-size: 24px;
+ align-items: center;
+ padding-top: 2px;
+}
+.biography-image{
+  display: flex;
+  height: 533px;
+  width: 800px;
+  padding: 40px 183px
+}
+.chef-image{
+  display: flex;
+  height: 533px;
+  width: 800px;
+}
+.bio-content{
+  padding: 2px 0;
+  text-align: center;
+  justify-content: center;
+}
+.who-am-i{
+  justify-items: center;
+  font-weight: bold ;
+  font-size: 21px;
+  text-align: center ;
+  padding-top: 2px;
+  line-height: 20px;
+  
+}
+.passion{
+  justify-items: center;
+  font-style: italic;
+  font-size: 17px;
+  text-align: center ;
+  padding-top: 18px;
+  line-height: 20px;
+}
+.bio-description{
+  justify-items: center;
+  font-style: italic;
+  font-size: 17px;
+  text-align: center ;
+  padding-top: 18px;
+  line-height: 22px;
+  width: 1170px;
+}
