@@ -45,11 +45,39 @@
     align-items: center;
     max-width: 900px;
     max-height: fit-content;
-}
-  .row{
+  }
+   .card{
+    margin: 8px;
+    margin-bottom: 20px;
+    height:600px ;
+    width: 272px;
     display: inline-block;
   }
-   
+}
+@media only screen and (max-width: 900px) {
+  .content-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    max-height: fit-content;
+  }
+   .card{
+    margin: 8px;
+    margin-bottom: 20px;
+    height:600px ;
+    width: 272px;
+    display: inline-block;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .content-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+    max-height: fit-content;
+  }
    .card{
     margin: 8px;
     margin-bottom: 20px;
