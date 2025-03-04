@@ -12,14 +12,11 @@
 }
 .biography-image{
   display: flex;
-  height: 533px;
-  width: 800px;
-  padding: 40px 183px
 }
 .chef-image{
-  display: flex;
-  height: 533px;
+  aspect-ratio: 1.5;
   width: 800px;
+  margin: 0 auto;
 }
 .bio-content{
   padding: 2px 0;
@@ -65,6 +62,11 @@
     line-height: 22px;
     width: 1000px;
   }
+  .chef-image{
+    aspect-ratio: 1.5;
+    width: 80%;
+    margin: 0 auto;
+  }
 }
 @media only screen and (max-width: 1000px) {
   .biography{
@@ -79,5 +81,47 @@
     padding-top: 18px;
     line-height: 22px;
     width: 800px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .biography{
+    margin: 0 auto;
+  }
+  .bio-description{
+    margin: 0 auto;
+    font-style: italic;
+    font-size: 17px;
+    text-align: center ;
+    padding-top: 18px;
+    line-height: 22px;
+    max-width: 900px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .biography{
+    margin: 0 auto;
+  }
+  .bio-description{
+    margin: 0 auto;
+    font-style: italic;
+    font-size: 17px;
+    text-align: center ;
+    padding-top: 18px;
+    line-height: 22px;
+    max-width: 600px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .biography{
+    margin: 0 auto;
+  }
+  .bio-description{
+    margin: 0 auto;
+    font-style: italic;
+    font-size: 17px;
+    text-align: center ;
+    padding-top: 18px;
+    line-height: 22px;
+    max-width: 300px;
   }
 }
