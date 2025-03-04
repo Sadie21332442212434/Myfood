@@ -30,8 +30,7 @@ body {
  .mail-topic{
    font-size: 24px;
  }
-
-
+ 
 /**scroll bar**/
 .pagination{
   display: flex;
@@ -58,5 +57,5 @@ body {
   background-color: black;
   color: white;
 }
-/** next page **/
+
 
